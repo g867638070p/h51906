@@ -1,0 +1,243 @@
+header {
+    width: 100%;
+    height: 118px;
+}
+
+.head {
+    overflow: hidden;
+    /* background-color: pink; */
+}
+
+/* .logo {
+    margin: 16px 0px 16px 5px;
+    display: block;
+} */
+.logo>img {
+    margin: 16px 0px 16px 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.navigation {
+    height: 118px;
+    margin: 0;
+    position: relative;
+}
+
+.login {
+    margin: 10px 0px;
+    ;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.login>input {
+    font-size: 12px;
+    border-radius: 8px;
+    border: 1px solid #393939;
+    width: 200px;
+    /* height: 20px; */
+    line-height: 20px;
+    outline: none;
+    padding-left: 10px;
+    margin-right: 20px;
+    background-image: url(../img/搜索_03.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.login>input::placeholder {
+    color: #a6a6a6;
+}
+
+.login>button {
+    width: 40px;
+    text-align: center;
+    line-height: 20px;
+    border: none;
+    background-color: #ffffff;
+    color: #6c6c6c;
+    cursor: pointer;
+    font-size: 12px;
+    outline: none;
+}
+
+.login>span {
+    font-size: 12px;
+    line-height: 20px;
+    color: #6c6c6c;
+}
+
+.contents>ul>li {
+    /* width: 50px; */
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    padding: 10px 0px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.head li:hover {
+    border-bottom: 2px solid #8b2228;
+}
+
+.contents {
+    margin-top: 48px;
+    display: block;
+}
+
+
+main {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* 轮播图  */
+.lunbotu>img {
+    width: 100%;
+    display: block;
+}
+
+/* 选项卡切换 */
+.tab {
+    overflow: hidden;
+}
+
+.tab>.tab_head {
+    overflow: hidden;
+}
+
+.tab>.tab_head>ul {
+    text-align: center;
+    margin-top: 20px;
+    right: 0;
+    float: right;
+    cursor: pointer;
+}
+
+.tab>.tab_head>ul>li:nth-of-type(1) {
+    font-size: 14px;
+    color: black;
+}
+
+.tab>.tab_head>ul>li {
+    line-height: 20px;
+    float: left;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #7e7e7e;
+}
+
+.tab>.tab_swh {
+    overflow: hidden;
+    border-top: 1px solid #666666;
+}
+
+.tab>.tab_swh>.switch_bar {
+    float: left;
+}
+
+.tab>.tab_swh>.switch_bar>h2 {
+    font-size: 22px;
+    color: #333333;
+    line-height: 36px;
+    border-bottom: 1px solid #666666;
+    border-left: 1px solid #666666;
+    padding: 0px 10px 0px 20px;
+    cursor: pointer;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.s1>div {
+    width: 119px;
+    font-size: 17px;
+    padding-left: 20px;
+    line-height: 25px;
+    text-align: left;
+    cursor: pointer;
+    background-image: url(../img/jia.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: none;
+    background-color: #fff;
+    border-radius: 0px 0px 8px 8px;
+    border-bottom: 1px solid #7e7e7e;
+}
+
+.s1>div:hover {
+    color: red;
+}
+
+.active {
+    color: red;
+    background-image: url(../img/jia.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 119px;
+    font-size: 17px;
+    padding-left: 20px;
+    line-height: 25px;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    border-radius: 0px 0px 8px 8px;
+    border-bottom: 1px solid #7e7e7e;
+}
+
+/* 卢森堡 */
+
+.s2 {
+    margin-left: 139px;
+    padding-left: 60px;
+    overflow: hidden;
+}
+.show_box1 {
+    overflow: hidden;
+}
+.show_box1>h3 {
+    font-size: 20px;
+    line-height: 60px;
+    color: #333333;
+}
+
+.show_box1>h3>span {
+    font-size: 14px;
+    color: #666666;
+}
+
+.show_box1>.hengxian {
+    width: 220px;
+    /* height: 20px; */
+    background-color: #8b2228;
+    border-top: 1px solid #8b2228;
+    position: relative;
+    top: -15px;
+    left: 0;
+}
+.show_box2>p {
+    line-height: 22px;
+    font-size: 14px;
+    color: #a6a6a6;
+    padding-bottom: 20px;
+}
+.show_box3 {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.show_box3>img {
+    margin: 0 35px;
+    float: left;
+    display: block;
+}
+/* 网页尾部 */
+.copyright {
+    text-align: center;
+    line-height: 60px;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #666666;
+}

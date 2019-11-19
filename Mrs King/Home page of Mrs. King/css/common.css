@@ -1,0 +1,12 @@
+/* 放网页中一些公共的样式 */
+/* 版心：固定宽度，水平居中。自己定义一个类名 */
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
