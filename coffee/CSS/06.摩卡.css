@@ -1,0 +1,108 @@
+nav,.main,.foot{
+    /* height: 80px; */
+    width: 1200px;
+    margin: 0 auto;
+    /* vertical-align: middle; */
+    overflow: hidden;
+}
+nav>img{
+    float: left;
+}
+nav>ul{
+    float: right;
+    font-size: 20px;
+}
+nav>ul>li{
+    float: left;
+    width: 120px;
+    text-align: center;
+    /* display: inline-block; */
+    line-height: 78px;
+}
+nav>ul>li:nth-child(3):hover{
+    border-bottom: 2px solid #866961;
+    
+}
+nav>ul>li:nth-child(3):hover>a{
+    color: #866961;
+}
+.banner>img{
+    width: 100%;
+}
+.main1{
+    margin: 38px 0 0 100px;
+}
+.main>.main1>.main-left{
+    float: left;
+}
+.main>.main1 .empty{
+    width: 2px;
+    height: 9px;
+    background: #866961;
+    display: inline-block;
+}
+.main>.main1 h2{
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+}
+.main>.main1 p {
+    font-size: 12px;
+    color: #ccc;
+}
+.main>.main1 p span{
+    /* font-size: 12px; */
+    color: #ccc;
+}
+/* .main>.mian1>.main-right{
+    float: right;
+} */
+.main>.main1>p{
+    /* font-style: 12px; */
+    float: right;
+    margin: 19px 103px 0 0 ;
+    color: #333;
+
+}
+.main>.mian1>p span{
+    color: #ccc;
+}
+.main>.main1>.main-bottom{
+    clear: both;
+    width: 995px;
+}
+.main2{
+    margin: 25px 0 0 100px;
+}
+.main2 .mainLeft{
+    /* display: inline-block; */
+    float: left;
+}
+.main2 p{
+    width: 530PX;
+    float: left;
+    font-size: 16px;
+    color: #333;
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 30px;
+    margin:0 0 44px 36px;
+    /* display: inline-block; */
+}
+footer{
+    height: 80px;
+    background: #866961;
+    margin-top: 36px;
+}
+footer p{
+    float: left;
+    margin-left: 68px;
+    font-size: 12px;
+    line-height: 80px;
+    color: white;
+}
+footer img{
+    float: left;
+    margin-left: 178px;
+    margin-top: 22px;
+}

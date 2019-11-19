@@ -1,0 +1,166 @@
+nav, .main, .foot {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav>img {
+    float: left;
+    margin-left: 46px;
+}
+
+nav>ul {
+    float: right;
+    margin-right: 46px;
+}
+
+nav>ul>li {
+    float: left;
+    width: 120px;
+    text-align: center;
+    /* border-bottom: 2px solid; */
+    line-height: 80px;
+    height: 78px;
+}
+
+nav>ul>li>a {
+    font-size: 20px;
+    color: #333;
+}
+
+nav>ul>li:nth-child(2):hover {
+    border-bottom: 2px solid #866961;
+}
+
+nav>ul>li:nth-child(2):hover>a {
+    color: #866961;
+}
+
+.banner>img {
+    width: 100%;
+}
+
+.main-left {
+    float: left;
+    margin-right: 35px;
+}
+
+.main>.main1 .empty {
+    width: 2px;
+    height: 9px;
+    background: #866961;
+    display: inline-block;
+}
+
+.main>.main1 h2 {
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+}
+
+.main>.main1>.main-left p {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.main>.main1>p span {
+    /* font-size: 12px; */
+    color: #ccc;
+}
+
+.main>.main1>p {
+    /* font-style: 12px; */
+    float: right;
+    margin: 19px 103px 0 0;
+    color: #333;
+}
+
+.main>.main1>.main-bottom {
+    width: 995px;
+    clear: both;
+}
+
+.main1 {
+    margin: 38px 0 0 100px;
+}
+
+.main2 {
+    overflow: hidden;
+    /* vertical-align: bottom; */
+    /* line-height: 20px; */
+    margin: 28px 0 0 100px;
+}
+.main2-left{
+    overflow: hidden;
+    float: left;
+    margin: 0 20px 0 0px;
+    color: #866961;
+}
+
+.main2>.main2-left p {
+    /* width: 54px; */
+    float: left;
+    /* display: inline-block; */
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+.main2>div>div {
+    width: 1px;
+    height: 7px;
+    background: #866961;
+    /* display: inline-block; */
+    float: left;
+    margin: 12px 2px 0 0;
+    /* margin: 17px 0 0 0px; */
+}
+
+.main2>div>div:nth-of-type(14) {
+    height: 58px;
+    width: 1px;
+    background: #ccc;
+    clear: both;
+    margin: 11px 0 0 26px;
+}
+.main2-right{
+    float: left;
+    overflow: hidden;
+    /* margin-top: 34px; */
+    font-size: 14px;
+    color: #866961;
+   
+}
+.main2-right>hr{
+    width: 870px;
+    margin: 5px 0 28px;
+    background-color: #ccc;
+}
+.main2-right>p>span{
+    margin: 0 22px 0 0;
+}
+.main2-right>p{
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main>.main2:nth-of-type(2n-1)>div>div:nth-of-type(14){
+    height: 110px;
+}
+footer{
+    height: 80px;
+    background: #866961;
+    margin-top: 43px;
+}
+footer p{
+    float: left;
+    margin-left: 100px;
+    font-size: 12px;
+    line-height: 80px;
+    color: white;
+}
+footer img{
+    float: left;
+    margin-left: 178px;
+    margin-top: 22px;
+}

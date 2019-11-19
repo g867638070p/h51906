@@ -1,0 +1,117 @@
+nav, .main,.foot {
+    width: 1200px;
+    /* height: 80px; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav>img {
+    float: left;
+    margin-left: 46px;
+}
+
+nav>ul {
+    float: right;
+    margin-right: 46px;
+}
+
+nav>ul>li {
+    float: left;
+    width: 120px;
+    text-align: center;
+    line-height: 78px;
+}
+
+nav>ul:hover li:nth-of-type(2) {
+    border-bottom: 2px solid #866961;
+    /* color: #866961; */
+}
+
+.banner>img {
+    width: 100%;
+}
+
+.main .main1-left>.empty {
+    width: 2px;
+    height: 9px;
+    background: #866961;
+    display: inline-block;
+}
+
+.main .main1-left>h2 {
+    display: inline-block;
+}
+
+.main .main1-left>p {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.main .main1-right>p {
+    font-size: 14px;
+    margin-top: 17px;
+    margin-right: 37px;
+}
+
+.main .main1-right>p>span {
+    color: #ccc;
+}
+
+.main .main1-left {
+    float: left;
+}
+
+.main .main1-right {
+    float: right;
+}
+
+.main1 {
+    margin: 38px 0 0 26px;
+    overflow: hidden;
+}
+
+.main .main1-bottom {
+    clear: both;
+}
+
+.main .main1-bottom>hr {
+    /* display: block; */
+    width: 1140px;
+    height: 1px;
+    color: #866961;
+}
+.main>.main2{
+    margin: 32px 0 0 26px;
+}
+.main>.main2>h3{
+    text-align: center;
+    font-size: 20px;
+}
+.main>.main2>div{
+    margin: 40px 0 26px;
+}
+.main>.main2>p{
+    width: 1134px;
+    text-align: justify;
+    text-indent: 2em;
+    margin: 42px 0 46px;
+    line-height: 30px;
+}
+footer{
+    height: 80px;
+    background: #866961;
+    margin-top: 38px;
+}
+footer p{
+    float: left;
+    margin-left: 100px;
+    font-size: 12px;
+    line-height: 80px;
+    color: white;
+}
+footer img{
+    float: left;
+    margin-left: 178px;
+    margin-top: 22px;
+}
+

@@ -1,0 +1,117 @@
+nav,.main,.foot{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav>img{
+    float: left;
+}
+nav>ul{
+    float: right;
+}
+nav>ul>li{
+    float: left;
+    width: 120px;
+    text-align: center;
+    line-height: 78px;
+    font-size: 20px;
+}
+nav>ul>li>a{
+    color:#333;
+}
+nav>ul>li:hover{
+    border-bottom: 2px solid #866961;
+}
+nav>ul>li:hover>a{
+    color: #866961;
+}
+.banner>img{
+    width: 100%;
+}
+.empty{
+    width: 2px;
+    height: 9px;
+    background: #866961;
+    display: inline-block;
+}
+.main>.main1>.main1-left>h2{
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+}
+.main>.main1>.main1-left>p{
+    font-size: 12px;
+    color: #ccc;
+}
+.main>.main1>.main1-left{
+    float: left;
+}
+.main>.main1>.main1-right{
+    float: right;
+}
+.main>.main1>.main1-right>p{
+    margin-top: 17px;
+}
+.main>.main1>.main1-right>p>span{
+    color: #ccc;
+}
+.main1{
+    margin: 36px 102px 0 ;
+    /* overflow: hidden; */
+}
+.main>.main1>.main1-bottom{
+    clear: both;
+    width: 995px;
+    height: 1px;
+    background: #ccc;
+}
+.main>.main2{
+    margin: 22px 102px 0;
+}
+.main3>.first>img{
+    float: left;
+}
+.main3>.first>div{
+    float: left;
+    margin-left: 14px;
+}
+.main3>.first>div>h2{
+    display: inline-block;
+    font-size: 20px;
+    color: #333;
+}
+.main3>.first>div>p,.main3>.first>div>h4{
+    color: #ccc;
+}
+.main3>.first>div>h3{
+    margin-top: 32px;
+}
+
+.main3{
+    overflow: hidden;
+    margin: 56px 102px 0;
+}
+.main3>.first{
+    overflow: hidden;
+    float: left;
+}
+.main3>.first:nth-of-type(2){
+    margin: 0 58px;
+}
+footer{
+    height: 80px;
+    background: #866961;
+    margin-top: 62px;
+}
+footer p{
+    float: left;
+    margin-left: 67px;
+    font-size: 12px;
+    line-height: 80px;
+    color: white;
+}
+footer img{
+    float: right;
+    margin-right: 250px;
+    margin-top: 22px;
+}

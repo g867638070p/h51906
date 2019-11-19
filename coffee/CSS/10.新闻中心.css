@@ -1,0 +1,155 @@
+nav, .main,.foot {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav>img {
+    float: left;
+    margin-left: 46px;
+}
+
+nav>ul {
+    float: right;
+    margin-right: 46px;
+}
+
+nav>ul>li {
+    float: left;
+    width: 120px;
+    line-height: 78px;
+    text-align: center;
+}
+
+nav>ul>li:nth-of-type(2):hover {
+    border-bottom: 2px solid #866961;
+}
+
+nav>ul>li:nth-of-type(2):hover>a {
+    color: #866961;
+}
+
+.banner>img {
+    width: 100%;
+}
+
+.main>.main1>.main1-left h2 {
+    font-size: 16px;
+    display: inline-block;
+}
+
+.main>.main1>.main1-left .empty {
+    display: inline-block;
+    width: 2px;
+    height: 9px;
+    background: #ccc;
+}
+
+.main>.main1>.main1-left p {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.main>.main1>.main1-left>div {
+    float: left;
+    margin: 0 18px 0 0;
+}
+
+.main>.main1>.main1-left {
+    float: left;
+    /* overflow: hidden; */
+    margin-bottom: 5px;
+}
+
+.main>.main1>.main1-right {
+    /* overflow: hidden; */
+    float: right;
+    margin-top: 17px;
+}
+.main>.main1>.main1-right>p>span{
+    color: #ccc;
+}
+
+
+.main>.main1>.main1-bottom {
+    clear: both;
+}
+
+.main>.main1>.main1-bottom>hr {
+    width: 995px;
+}
+
+.main1 {
+    margin: 36px 103px 0;
+}
+.main2>.main2-first{
+    overflow: hidden;
+    width: 995px;
+    border-bottom: 1px solid #ccc;
+    margin: 30px 0 0 103px;
+}
+.main2>.main2-first>.date {
+    float: left;
+}
+
+.main2>.main2-first>.date {
+    text-align: center;
+    /* overflow: hidden; */
+    margin-left: 15px;
+    /* height: 48px; */
+    /* border-right: 1px solid #ccc; */
+}
+
+.main2>.main2-first>.date>p:nth-of-type(1) {
+    width: 46px;
+    font-size: 36px;
+    color: #866961;
+}
+/* .main2>.main2-first>.date>p>span{
+    font-size: 10px;
+} */
+
+.main2>.main2-first>.date>p:nth-of-type(2) {
+    font-size: 10px;
+    color: #999;
+}
+
+.main2>.main2-first>.line {
+    width: 1px;
+    height: 64px;
+    background: #ccc;
+    float: left;
+    margin: 0 18px 0 10px;
+}
+
+.main2>.main2-first>.text {
+    float: left;
+    font-size: 14px;
+}
+.main2>.main2-first>.text>p:nth-of-type(1){
+    color: #90766f;
+}
+.main2>.main2-first>.text>p:nth-of-type(2){
+    margin: 24px 0 30px;
+    color: #666;
+}
+.main>.main2>.main2-first:nth-of-type(5){
+    border: 0;
+}
+footer{
+    height: 80px;
+    background: #866961;
+    margin-top: 46px;
+}
+footer p{
+    float: left;
+    margin-left: 100px;
+    font-size: 12px;
+    line-height: 80px;
+    color: white;
+}
+footer img{
+    float: left;
+    margin-left: 178px;
+    margin-top: 22px;
+}
